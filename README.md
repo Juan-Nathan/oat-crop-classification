@@ -21,11 +21,11 @@ This project applies various classification models in R to detect whether **Oats
 
 1. **Exploratory Data Analysis**
    - Summary statistics, standard deviations, and correlation analysis
-   - Identification of outliers and multicollinearity (e.g., `A16` and `A19`)
+   - Identification of outliers and multicollinearity (e.g., `A16` `A19`, and `A20`)
 2. **Preprocessing**
    - Log transformation of skewed features (`A26`)
    - Removal of highly correlated variables
-   - SMOTE oversampling for class balance (when applicable)
+   - SMOTE oversampling for class balance
    - Feature scaling for neural network models
 3. **Model Training**
    - Trained and evaluated:
@@ -34,8 +34,8 @@ This project applies various classification models in R to detect whether **Oats
      - Bagging
      - Boosting
      - Random Forest (RF)
-     - Hyperparameter tuning for Random Forest with SMOTE-balanced data
-     - Artificial Neural Network (ANN)
+     - RF with hyperparameter tuning on SMOTE-balanced data
+     - Artificial Neural Network (ANN) on SMOTE-balanced data
      - XGBoost
 4. **Evaluation Metrics**
    - Confusion Matrix
@@ -52,7 +52,7 @@ This project applies various classification models in R to detect whether **Oats
 | Boosting              | 86.6%    | 0.505     | 0.238  | 0.323    | 0.734 |
 | Random Forest         | 87.1%    | 0.714     | 0.074  | 0.135    | 0.777 |
 | Tuned RF + SMOTE      | 80.1%    | 0.420     | 0.532  | 0.470    | 0.720 |
-| ANN                   | 66.5%    | 0.247     | 0.723  | 0.368    | 0.728 |
+| ANN + SMOTE           | 66.5%    | 0.247     | 0.723  | 0.368    | 0.728 |
 | XGBoost               | 77.4%    | 0.321     | 0.609  | 0.421    | 0.775 |
 
 ## 🔑 Outcomes
@@ -72,6 +72,7 @@ This project applies various classification models in R to detect whether **Oats
 ## 👤 Author
 
 Developed by Juan Nathan.
+
 
 
 
