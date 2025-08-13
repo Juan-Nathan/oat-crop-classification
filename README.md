@@ -63,7 +63,7 @@ This project applies various classification models in R to detect whether **Oats
 - Tuned RF with SMOTE, ANN with SMOTE, and XGBoost achieved higher recall and F1-scores than other models, with a slight trade-off in accuracy and precision due to more aggressive prediction of the minority class (Oats).
 - The tuned Random Forest model performed best overall, offering the most balanced trade-off between precision and recall, and thus achieving the highest F1-score after SMOTE balancing and hyperparameter tuning.
 
-### 🚀 How to Run
+## 🚀 How to Run
 
 1. Clone the repository or download the ZIP file from GitHub.
 2. Open the project folder in RStudio.
@@ -72,8 +72,3 @@ This project applies various classification models in R to detect whether **Oats
 ## 👤 Author
 
 Developed by Juan Nathan.
-
-
-
-
-
