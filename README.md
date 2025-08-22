@@ -2,7 +2,7 @@
 
 This project applies various classification models in R to detect whether **Oats** (class = 1) or **Other** (class = 0) are being grown on farmland using optical and radar-based remote sensing data. The dataset is derived from a modified version of the Winnipeg Crop Mapping Dataset, hosted by the UCI Machine Learning Archive.
 
-## 📁 Dataset
+## Dataset
 
 - **Source**: [UCI Machine Learning Archive](https://archive.ics.uci.edu/dataset/525/crop+mapping+using+fused+optical+radar+data+set)
 - **Features**: 20 randomly selected variables (`A01`–`A30`), plus a binary target `Class`
@@ -11,13 +11,13 @@ This project applies various classification models in R to detect whether **Oats
   - Oats: 14.2%
   - Other: 85.8%
 
-## 🧰 Technologies Used
+## Technologies Used
 
 - **Language**: R
 - **IDE**: RStudio
 - **Packages**: `dplyr`, `tree`, `e1071`, `ROCR`, `randomForest`, `adabag`, `rpart`, `smotefamily`, `neuralnet`, `xgboost`
 
-## ⚙️ Project Workflow
+## Project Workflow
 
 1. **Exploratory Data Analysis**
    - Summary statistics, standard deviations, and correlation analysis
@@ -42,7 +42,7 @@ This project applies various classification models in R to detect whether **Oats
    - Accuracy, Precision, Recall, F1-Score
    - ROC Curve and AUC
 
-## 📊 Model Performance Summary
+## Model Performance Summary
 
 | Model                 | Accuracy | Precision | Recall | F1-Score | AUC   |
 |-----------------------|----------|-----------|--------|----------|-------|
@@ -55,7 +55,7 @@ This project applies various classification models in R to detect whether **Oats
 | ANN + SMOTE           | 66.5%    | 0.247     | 0.723  | 0.368    | 0.728 |
 | XGBoost               | 77.4%    | 0.321     | 0.609  | 0.421    | 0.775 |
 
-## 🔑 Outcomes
+## Outcomes
 
 - Class imbalance had a major impact on model performance, particularly on recall for the minority class.
 - F1-score was a more reliable evaluation metric than accuracy, which was inflated by the dominance of the majority class.
@@ -63,12 +63,13 @@ This project applies various classification models in R to detect whether **Oats
 - Tuned RF with SMOTE, ANN with SMOTE, and XGBoost achieved higher recall and F1-scores than other models, with a slight trade-off in accuracy and precision due to more aggressive prediction of the minority class (Oats).
 - The tuned Random Forest model performed best overall, offering the most balanced trade-off between precision and recall, and thus achieving the highest F1-score after SMOTE balancing and hyperparameter tuning.
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository or download the ZIP file from GitHub.
 2. Open the project folder in RStudio.
 3. Run the R script (`oats_classification.r`) inside the RStudio environment.
 
-## 👤 Author
+## Author
 
 Developed by Juan Nathan.
+
