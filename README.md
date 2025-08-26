@@ -16,7 +16,7 @@ This project applies various classification models in R to detect whether **Oats
 
 - **Language**: R
 - **IDE**: RStudio
-- **Packages**: `dplyr`, `tree`, `e1071`, `ROCR`, `randomForest`, `adabag`, `rpart`, `smotefamily`, `neuralnet`, `xgboost`
+- **Packages**: `tree`, `e1071`, `ROCR`, `randomForest`, `adabag`, `rpart`, `smotefamily`, `neuralnet`, `xgboost`
 
 ## Project Workflow
 
@@ -73,5 +73,6 @@ This project applies various classification models in R to detect whether **Oats
 ## Author
 
 Developed by Juan Nathan.
+
 
 
