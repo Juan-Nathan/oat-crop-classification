@@ -4,6 +4,7 @@ This project applies various classification models in R to detect whether **Oats
 
 ## Dataset
 
+- `WinnData.csv`
 - **Source**: [UCI Machine Learning Archive](https://archive.ics.uci.edu/dataset/525/crop+mapping+using+fused+optical+radar+data+set)
 - **Features**: 20 randomly selected variables (`A01`–`A30`), plus a binary target `Class`
 - **Observations**: 5000
@@ -72,4 +73,5 @@ This project applies various classification models in R to detect whether **Oats
 ## Author
 
 Developed by Juan Nathan.
+
 
