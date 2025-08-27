@@ -26,7 +26,7 @@ This project applies various classification models in R to detect whether **Oats
 2. **Preprocessing**
    - Log transformation of skewed features (`A26`)
    - Removal of highly correlated variables
-   - SMOTE oversampling for class balance
+   - Synthetic Minority Oversampling Technique (SMOTE) for class balance
    - Feature scaling for neural network models
 3. **Model Training**
    - Trained and evaluated:
@@ -39,7 +39,6 @@ This project applies various classification models in R to detect whether **Oats
      - Artificial Neural Network (ANN) on SMOTE-balanced data
      - XGBoost
 4. **Evaluation Metrics**
-   - Confusion Matrix
    - Accuracy, Precision, Recall, F1-Score
    - ROC Curve and AUC
 
@@ -73,6 +72,7 @@ This project applies various classification models in R to detect whether **Oats
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
