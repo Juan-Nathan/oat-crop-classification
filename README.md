@@ -32,8 +32,8 @@ This project applies various classification models in R to detect whether **Oats
    - Trained and evaluated:
      - Decision Tree
      - Naive Bayes
-     - Bagging
-     - Boosting
+     - Bagged Trees
+     - AdaBoost
      - Random Forest (RF)
      - RF with hyperparameter tuning on SMOTE-balanced data
      - Artificial Neural Network (ANN) on SMOTE-balanced data
@@ -48,8 +48,8 @@ This project applies various classification models in R to detect whether **Oats
 |-----------------------|----------|-----------|--------|----------|-------|
 | Decision Tree         | 86.6%    | 0.533     | 0.040  | 0.074    | 0.689 |
 | Naive Bayes           | 80.2%    | 0.246     | 0.228  | 0.237    | 0.699 |
-| Bagging               | 86.7%    | 0.667     | 0.030  | 0.057    | 0.771 |
-| Boosting              | 86.6%    | 0.505     | 0.238  | 0.323    | 0.734 |
+| Bagged Trees          | 86.7%    | 0.667      | 0.030  | 0.057   | 0.771 |
+| AdaBoost              | 86.6%    | 0.505     | 0.238  | 0.323    | 0.734 |
 | Random Forest         | 87.1%    | 0.714     | 0.074  | 0.135    | 0.777 |
 | Tuned RF + SMOTE      | 80.1%    | 0.420     | 0.532  | 0.470    | 0.720 |
 | ANN + SMOTE           | 66.5%    | 0.247     | 0.723  | 0.368    | 0.728 |
@@ -72,6 +72,7 @@ This project applies various classification models in R to detect whether **Oats
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
