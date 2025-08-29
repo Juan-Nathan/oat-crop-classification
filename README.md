@@ -22,10 +22,10 @@ This project applies various classification models in R to detect whether **Oats
 
 1. **Exploratory Data Analysis**
    - Summary statistics, standard deviations, and correlation analysis
-   - Identification of outliers and multicollinearity (e.g., `A16` `A19`, and `A20`)
+   - Identification of outliers and multicollinearity (e.g., `A16`, `A19`, and `A20`)
 2. **Preprocessing**
    - Log transformation of skewed features (`A26`)
-   - Removal of highly correlated variables
+   - Removal of highly correlated variables (`A16` and `A19`)
    - Synthetic Minority Oversampling Technique (SMOTE) for class balance
    - Feature scaling for neural network models
 3. **Model Training**
@@ -72,6 +72,7 @@ This project applies various classification models in R to detect whether **Oats
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
