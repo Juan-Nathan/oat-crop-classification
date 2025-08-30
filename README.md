@@ -1,4 +1,4 @@
-# 🌾 Oats Crop Classification on Imbalanced Dataset
+# 🌾 Oats Crop Classification from Remote Sensing Data
 
 This project applies various classification models in R to detect whether **Oats** (class = 1) or **Other** (class = 0) are being grown on farmland using optical and radar-based remote sensing data. The dataset is derived from a modified version of the Winnipeg Crop Mapping Dataset, hosted by the UCI Machine Learning Archive.
 
@@ -73,6 +73,7 @@ This project applies various classification models in R to detect whether **Oats
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
