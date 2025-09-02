@@ -44,25 +44,24 @@ This project applies various classification models in R to detect whether **Oats
 
 ## Model Performance Summary
 
-| Model                 | Accuracy | Precision | Recall | F1-Score | AUC   |
+| Model                 | Accuracy | Precision | Recall | F1-Score |  AUC  |
 |-----------------------|----------|-----------|--------|----------|-------|
-| Decision Tree         | 86.6%    | 0.533     | 0.040  | 0.074    | 0.689 |
-| Naive Bayes           | 80.2%    | 0.246     | 0.228  | 0.237    | 0.699 |
-| Bagged Trees          | 86.7%    | 0.667      | 0.030  | 0.057   | 0.771 |
-| AdaBoost              | 86.6%    | 0.505     | 0.238  | 0.323    | 0.734 |
-| Random Forest         | 87.1%    | 0.714     | 0.074  | 0.135    | 0.777 |
-| Tuned RF + SMOTE      | 80.1%    | 0.420     | 0.532  | 0.470    | 0.720 |
-| ANN + SMOTE           | 66.5%    | 0.247     | 0.723  | 0.368    | 0.728 |
-| XGBoost               | 77.4%    | 0.321     | 0.609  | 0.421    | 0.775 |
+| Decision Tree         | 87%      | 53%       | 4%     | 7%       | 0.69  |
+| Naive Bayes           | 80%      | 25%       | 23%    | 24%      | 0.70  |
+| Bagged Trees          | 87%      | 67%       | 3%     | 6%       | 0.77  |
+| AdaBoost              | 87%      | 51%       | 24%    | 32%      | 0.73  |
+| Random Forest         | 87%      | 71%       | 7%     | 14%      | 0.78  |
+| Tuned RF with SMOTE   | 80%      | 42%       | 53%    | 47%      | 0.72  |
+| ANN with SMOTE        | 67%      | 25%       | 72%    | 37%      | 0.73  |
+| XGBoost               | 77%      | 32%       | 61%    | 42%      | 0.78  |
 
 ## Outcomes
 
 - Class imbalance had a major impact on model performance, particularly on recall for the minority class.
 - F1-score was a more reliable evaluation metric than accuracy, which was inflated by the dominance of the majority class.
 - The attributes `A26`, `A02`, `A06`, `A07`, `A08`, and `A14` were consistently identified as the most significant across the "basic" models (Decision Tree, Naive Bayes, Bagged Trees, AdaBoost, Random Forest). These features were used in subsequent models to reduce overfitting and improve generalization.
-- Tuned RF with SMOTE, ANN with SMOTE, and XGBoost achieved higher recall and F1-scores than other models, with a slight trade-off in accuracy and precision due to more aggressive prediction of the minority class (Oats).
-- Tuned RF with SMOTE performed the best overall, offering the most balanced trade-off between precision and recall, and thus achieving the highest F1-score after SMOTE balancing and hyperparameter tuning.
-- However, if the goal is to maximize the detection of Oats, even at the cost of more false positives, then ANN with SMOTE or XGBoost would be preferable since they have higher recall.
+- Tuned RF with SMOTE, ANN with SMOTE, and XGBoost achieved much higher recall and F1-scores than other models, with a slight trade-off in accuracy and precision due to more aggressive prediction of the minority class (Oats).
+- Tuned RF with SMOTE provides the best overall balance with the highest accuracy and F1-score among the three, while ANN with SMOTE is better for maximizing the detection of Oats, as it achieves the highest recall and an AUC that indicates acceptable discrimination between classes
 
 ## How to Run
 
@@ -73,12 +72,6 @@ This project applies various classification models in R to detect whether **Oats
 ## Author
 
 Developed by Juan Nathan.
-
-
-
-
-
-
 
 
 
