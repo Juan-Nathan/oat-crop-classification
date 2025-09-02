@@ -1,6 +1,6 @@
 # 🌾 Classification of Oat Crops using Remote Sensing Data
 
-This project applies various classification models in R to detect whether **oat crops** are being grown on farmland using optical and radar-based remote sensing data. The dataset is derived from a modified version of the Winnipeg Crop Mapping Dataset, hosted by the UCI Machine Learning Archive.
+This project applies various classification models in R to predict whether **oat crops** are being grown on farmland using optical and radar-based remote sensing data. The dataset is derived from a modified version of the Winnipeg Crop Mapping Dataset, hosted by the UCI Machine Learning Archive.
 
 ## Dataset
 
@@ -61,7 +61,7 @@ This project applies various classification models in R to detect whether **oat 
 - F1-score was a more reliable evaluation metric than accuracy, which was inflated by the dominance of the majority class.
 - The attributes `A26`, `A02`, `A06`, `A07`, `A08`, and `A14` were consistently identified as the most significant across the "basic" models (Decision Tree, Naive Bayes, Bagged Trees, AdaBoost, Random Forest). These features were used in subsequent models to reduce overfitting and improve generalization.
 - Tuned RF with SMOTE, ANN with SMOTE, and XGBoost achieved much higher recall and F1-scores than other models, with a slight trade-off in accuracy and precision due to more aggressive prediction of the minority class (Oats).
-- Tuned RF with SMOTE provides the best overall balance with the highest accuracy and F1-score among the three, while ANN with SMOTE is better for maximizing the detection of Oats, as it achieves the highest recall and a fair AUC that indicates acceptable discrimination between classes.
+- Tuned RF with SMOTE provides the best overall balance with the highest accuracy and F1-score among the three, while ANN with SMOTE is better for maximizing the detection of oat crops, as it achieves the highest recall and a fair AUC, indicating acceptable discrimination between classes.
 
 ## How to Run
 
@@ -72,6 +72,7 @@ This project applies various classification models in R to detect whether **oat 
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
