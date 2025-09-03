@@ -58,7 +58,7 @@ This project applies various classification models in R to predict whether **oat
 | ANN with SMOTE        | 67%      | 25%       | 72%    | 37%      | 0.73  |
 | XGBoost               | 77%      | 32%       | 61%    | 42%      | 0.78  |
 
-## Outcomes
+## Results
 
 - Class imbalance had a major impact on model performance, particularly on recall for the minority class.
 - Accuracy was not a reliable evaluation metric, as it was inflated by the majority class.
@@ -75,6 +75,7 @@ This project applies various classification models in R to predict whether **oat
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
