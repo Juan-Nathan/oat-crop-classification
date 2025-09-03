@@ -24,10 +24,10 @@ This project applies various classification models in R to predict whether **oat
 
 ### 1. Exploratory Data Analysis
 - Summary statistics, standard deviations, and correlation analysis
-- Identification of outliers and multicollinearity (e.g., `A16`, `A19`, and `A20`)
+- Identification of outliers and multicollinearity
 
 ### 2. Preprocessing
-- Log transformation of skewed features (`A26`)
+- Log transformation of `A26` to handle outlier
 - Removal of highly correlated variables (`A16` and `A19`)
 - Synthetic Minority Oversampling Technique (SMOTE) for class balance
 - Feature scaling for neural network models
@@ -43,7 +43,7 @@ This project applies various classification models in R to predict whether **oat
 - XGBoost
 
 ### 4. Evaluation
-- Accuracy, Precision, Recall, F1-Score, AUC
+- Accuracy, Precision, Recall, F1-Score, and AUC
 
 ## Model Performance Summary
 
@@ -75,6 +75,7 @@ This project applies various classification models in R to predict whether **oat
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
