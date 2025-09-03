@@ -30,7 +30,7 @@ This project applies various classification models in R to predict whether **oat
 - Log transformation of `A26` to handle outlier
 - Removal of highly correlated variables (`A16` and `A19`)
 - Synthetic Minority Oversampling Technique (SMOTE) for class balance
-- Feature scaling for neural network models
+- Feature scaling for neural network model
 
 ### 3. Model Training
 - Decision Tree
@@ -75,6 +75,7 @@ This project applies various classification models in R to predict whether **oat
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
