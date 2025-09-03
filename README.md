@@ -24,7 +24,7 @@ This project applies various classification models in R to predict whether **oat
 
 ### 1. Exploratory Data Analysis
 - Summary statistics, standard deviations, and correlation analysis
-- Identification of outliers and multicollinearity
+- Detection of outliers and assessment of multicollinearity
 
 ### 2. Preprocessing
 - Log transformation of `A26` to handle outlier
@@ -75,6 +75,7 @@ This project applies various classification models in R to predict whether **oat
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
