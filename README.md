@@ -22,27 +22,28 @@ This project applies various classification models in R to predict whether **oat
 
 ## Project Workflow
 
-1. **Exploratory Data Analysis**
-   - Summary statistics, standard deviations, and correlation analysis
-   - Identification of outliers and multicollinearity (e.g., `A16`, `A19`, and `A20`)
-2. **Preprocessing**
-   - Log transformation of skewed features (`A26`)
-   - Removal of highly correlated variables (`A16` and `A19`)
-   - Synthetic Minority Oversampling Technique (SMOTE) for class balance
-   - Feature scaling for neural network models
-3. **Model Training**
-   - Trained and evaluated:
-     - Decision Tree
-     - Naive Bayes
-     - Bagged Trees
-     - AdaBoost
-     - Random Forest (RF)
-     - Hyperparameter-tuned RF on SMOTE-balanced data
-     - Artificial Neural Network (ANN) on SMOTE-balanced data
-     - XGBoost
-4. **Evaluation Metrics**
-   - Accuracy, Precision, Recall, F1-Score
-   - ROC Curve and AUC
+### 1. Exploratory Data Analysis
+- Summary statistics, standard deviations, and correlation analysis
+- Identification of outliers and multicollinearity (e.g., `A16`, `A19`, and `A20`)
+### 2. Preprocessing
+- Log transformation of skewed features (`A26`)
+- Removal of highly correlated variables (`A16` and `A19`)
+- Synthetic Minority Oversampling Technique (SMOTE) for class balance
+- Feature scaling for neural network models
+### 3. Model Training
+- Trained the following models:
+  - Decision Tree
+  - Naive Bayes
+  - Bagged Trees
+  - AdaBoost
+  - Random Forest (RF)
+  - Hyperparameter-tuned RF on SMOTE-balanced data
+  - Artificial Neural Network (ANN) on SMOTE-balanced data
+  - XGBoost
+### 4. Evaluation
+- Metrics:
+  - Accuracy, Precision, Recall, F1-Score
+  - ROC Curve and AUC
 
 ## Model Performance Summary
 
@@ -74,6 +75,7 @@ This project applies various classification models in R to predict whether **oat
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
