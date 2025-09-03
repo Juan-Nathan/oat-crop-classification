@@ -42,8 +42,7 @@ This project applies various classification models in R to predict whether **oat
   - XGBoost
 ### 4. Evaluation
 - Metrics:
-  - Accuracy, Precision, Recall, F1-Score
-  - ROC Curve and AUC
+  - Accuracy, Precision, Recall, F1-Score, AUC
 
 ## Model Performance Summary
 
@@ -75,6 +74,7 @@ This project applies various classification models in R to predict whether **oat
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
