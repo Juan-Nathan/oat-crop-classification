@@ -6,11 +6,12 @@ This project applies various classification models in R to predict whether **oat
 
 - `WinnData.csv`
 - **Source**: [UCI Machine Learning Archive](https://archive.ics.uci.edu/dataset/525/crop+mapping+using+fused+optical+radar+data+set)
-- **Features**: 20 randomly selected variables (`A01`–`A30`), plus a binary target `Class`
-- **Observations**: 5000
-- **Class Distribution**:
-  - Oats: 14.2%
-  - Other: 85.8%
+- **Personal Subset**:
+  - **Observations**: 5000
+  - **Features**: 20 randomly selected variables plus a binary target `Class`
+  - **Class Distribution**:
+    - Oats: 14.2%
+    - Other: 85.8%
 
 ## Technologies Used
 
@@ -72,6 +73,7 @@ This project applies various classification models in R to predict whether **oat
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
