@@ -8,7 +8,7 @@ This project applies various classification models in R to predict whether **oat
 - **Source**: [UCI Machine Learning Archive](https://archive.ics.uci.edu/dataset/525/crop+mapping+using+fused+optical+radar+data+set)
 - **Personal Subset** (randomly sampled with seed = 33270961):
   - **Observations**: 5,000
-  - **Features**: 20 variables from `A01` to A30`
+  - **Features**: 20 variables from `A01` to `A30`
   - **Target**: Binary variable `Class`
   - **Class Distribution**:
     - Oats: 14.2%
@@ -75,6 +75,7 @@ This project applies various classification models in R to predict whether **oat
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
