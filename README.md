@@ -11,8 +11,8 @@ This project applies various classification models in R to predict whether **oat
   - **Features**: 20 variables from `A01` to `A30`
   - **Target**: Binary variable `Class`
   - **Class Distribution**:
-    - Oats: 14.2%
-    - Other: 85.8%
+    - Oats: 14%
+    - Other: 86%
 
 ## Technologies Used
 
@@ -53,7 +53,7 @@ This project applies various classification models in R to predict whether **oat
 | Naive Bayes           | 80%      | 25%       | 23%    | 24%      | 0.70  |
 | Bagged Trees          | 87%      | 67%       | 3%     | 6%       | 0.77  |
 | AdaBoost              | 87%      | 51%       | 24%    | 32%      | 0.73  |
-| Random Forest         | 87%      | 71%       | 7%     | 14%      | 0.78  |
+| RF                    | 87%      | 71%       | 7%     | 14%      | 0.78  |
 | Tuned RF with SMOTE   | 80%      | 42%       | 53%    | 47%      | 0.72  |
 | ANN with SMOTE        | 67%      | 25%       | 72%    | 37%      | 0.73  |
 | XGBoost               | 77%      | 32%       | 61%    | 42%      | 0.78  |
@@ -75,6 +75,7 @@ This project applies various classification models in R to predict whether **oat
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
