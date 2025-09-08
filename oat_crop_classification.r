@@ -462,3 +462,4 @@ plot(xgb_perf, add=TRUE, col="green")
 # Compute AUC
 xgb_auc <- performance(xgb_obj, "auc")@y.values
 cat("\n# XGBoost AUC\n", as.numeric(xgb_auc), "\n")
+
