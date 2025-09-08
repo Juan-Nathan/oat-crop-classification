@@ -70,11 +70,12 @@ This project applies various classification models in R to predict whether **oat
 
 1. Clone the repository or download the ZIP file from GitHub.
 2. Open the project folder in RStudio.
-3. Run the R script (`oat_crops_classification.r`) inside the RStudio environment.
+3. Run the R script (`oat_crop_classification.r`) inside the RStudio environment.
 
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
