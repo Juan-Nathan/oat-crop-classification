@@ -1,4 +1,4 @@
-# 🌾 Classification of Oat Crops using Remote Sensing Data
+# 🌾 Oat Crop Classification using Remote Sensing Data
 
 This project applies various classification models in R to predict whether **oat crops** are being grown on farmland using optical and radar-based remote sensing data. The dataset is derived from a modified version of the Winnipeg Crop Mapping Dataset, hosted by the UCI Machine Learning Archive.
 
@@ -75,6 +75,7 @@ This project applies various classification models in R to predict whether **oat
 ## Author
 
 Developed by Juan Nathan.
+
 
 
 
